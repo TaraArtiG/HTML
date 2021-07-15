@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>HTML Cheat Sheet</title>
+			<h1> Main Heading in head tag</h1>
+	</head>
+	<body>
+		<!-- Comments -->
+		<h1> Main Heading in body tag </h1>
+		<h1> Second Main Heading in body tag using h1 </h1>
+		<h2> Third Heading </h2>
+		<h3> Fourth Heading </h3>
+		<h4> Fifth Heading </h4>
+		<h5> Sixth Heading </h5>
+		<h6> Seventh Heading </h6>
+		<h7> <em> Does h7 work in HTML? </em> </h7>
+		<p> <em> h7 works!!! </em> </p>
+		<p> <strong> So the inference I got from this code is
+			(1) We can define as many h'x' within one tag.
+			(2) The font size of two same h'x' is same even if they are in same or different tag.
+			(3) As the tag order goes down, the size also keeps on decreasing. </strong> </p>
+						<a href ="https://en.wikipedia.org/wiki/HTML" tagret="_blank"> HTML </a>
+			<!-- See the above difference for "a" tag by clicking on it -->
+		</body>
+			<!-- Now in the above paragraph tag, all the lines are displayed continuously. How to change the formatting...and all the heading tag can be made into same size using CSS. So let's learn XD -->
+			<!-- strong tag is used for bold. em tag is used for italics -->
+	</body>
+</html>
