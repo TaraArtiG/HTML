@@ -19,7 +19,7 @@
 			(1) We can define as many h'x' within one tag.
 			(2) The font size of two same h'x' is same even if they are in same or different tag.
 			(3) As the tag order goes down, the size also keeps on decreasing. </strong> </p>
-						<a href ="https://en.wikipedia.org/wiki/HTML" tagret="_blank"> HTML </a>
+						<a href ="https://en.wikipedia.org/wiki/HTML" target="_blank"> HTML </a>
 			<!-- See the above difference for "a" tag by clicking on it -->
 		</body>
 			<!-- Now in the above paragraph tag, all the lines are displayed continuously. How to change the formatting...and all the heading tag can be made into same size using CSS. So let's learn XD -->
