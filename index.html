@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title> HTML Cheat Sheet </title>
+			<h1> Main Heading in head tag </h1>
+	</head>
+	<body>
+		<!-- Comments -->
+		<!-- when you write "lorem" and press TAB, then random sample text is generated -->
+		<h1> Main Heading in body tag </h1>
+		<h1> Second Main Heading in body tag using h1 </h1>
+		<h2> Third Heading </h2>
+		<h3> Fourth Heading </h3>
+		<h4> Fifth Heading </h4>
+		<h5> Sixth Heading </h5>
+		<h6> Seventh Heading </h6>
+		<h7>
+			<em> Does h7 work in HTML? </em>
+		</h7>
+		<p> <em> h7 works!!! </em> </p>
+		<p>
+			<strong> So the inference I got from this code is
+			(1) We can define as many h'x' within one tag.
+			(2) The font size of two same h'x' is same even if they are in same or different tag.
+			(3) As the tag order goes down, the size also keeps on decreasing. 
+			</strong>
+		</p>
+		<!-- Now in the above paragraph tag, all the lines are displayed continuously. How to change the formatting...and all the heading tag can be made into same size using CSS. So let's learn XD -->
+			<!-- strong tag is used for bold. em tag is used for italics -->
+
+						<a href="https://en.wikipedia.org/wiki/HTML"> HTML #1 </a>
+						<a href ="https://en.wikipedia.org/wiki/HTML" target="_blank"> HTML #2 </a>
+						<!-- See the above difference for the anchor tag by clicking on it -->
+
+		<br> <!-- Line Break -->
+		<hr> <!-- Horizontal Rule - Puts up a lengthy line horizontally -->
+
+		<u1>
+			<li> HTML </li>
+			<li> CSS </li>
+			<li> Javascript </li>
+			<!-- They are listed in bullet-in points since they are Unordered List -->
+		</u1>
+		<br>
+		<ol>
+			<li> HTML </li>
+			<li> CSS </li>
+			<li> Javascript </li>
+			<!-- They are listed in numbers since they are Ordered List -->
+		</ol>
+
+		<!-- Now let's look about tables related tags...Hurray!!! -->
+		<table>
+			<thead>
+				<tr>
+					<th> ms # </th>
+					<th> Name </th>
+					<th> Age </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td> 1 </td>
+					<td> Tara Arti G</td>
+					<td> 19 </td>
+				</tr>
+				<tr>
+					<td> 2 </td>
+					<td> Gnanadesikan V </td>
+					<td> 49 </td>
+				</tr>
+				<tr>
+					<td> 3 </td>
+					<td> Sudha M </td>
+					<td> 45 </td>
+				</tr>
+			</tbody>
+		</table>
+		<!-- "table", "thead", "tbody", "tr", "th", "td" tags -->
+
+		<!-- We are gonna learn about FORMS. Now using HTML, we can make a layout of the form, but to actually make it out...that's not the job of HTML unforunately.  We can use PHP for it. -->
+		<br>
+		<form action = "process.php" method = "POST">
+			<!-- If you couldn't understand, it's okay...this is related to server side, so put peace -->
+			<label> First Name </label>
+			<input type ="text" name="FirstName">
+			<label> Last Name </label>
+			<input type="text" name="LastName">
+		</form>
+
+		<br>
+		<hr>
+		<br>
+
+		<form action="process.php" method = "POST">
+			<div>
+				<label> First Name </label>
+				<input type="text" name="Name" value="Enter First Name">
+			</div>
+			<br>
+			<div>
+				<label> Last Name </label>
+				<input type="text" name="LastName" placeholder="Enter Last Name">
+			</div>
+			<!-- See the difference between "value" and "placeholder" in input tag -->
+			<br>
+			<div>
+				<label> Remark </label>
+				<textarea name = "message"></textarea>
+			</div>
+			<br>
+			<div>
+				<label> Email </label>
+				<input type="email" name="Email">
+			</div>
+			<br>
+			<div>
+				<label> Gender </label>
+				<select name="Gender">
+					<option value="Male"> Male </option>
+					<option value="Female"> Female </option>
+					<option value="Others"> Others </option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label> Age </label>
+				<input type="number" name="Age">
+			</div>
+			<br>
+			<div>
+				<label> Date of Birth </label>
+				<input type="date" name="Birthday">
+			</div>
+
+			<input type="Submit" name="Submit" value="Submit">
+		</form>
+
+		<!-- See the difference between both the forms, div tag separates it to the next line -->
+
+		<!-- BUTTON -->
+		<br>
+		<br>
+		<br>
+		<br>
+		<button> GO TO THE CONTACT US PAGE </button>
+		<br>
+		<br>
+		<br>
+		<br>
+		<!-- IMAGE -->
+		<a href="Images/logo.jpg">
+			<img src="Images/logo.jpg" alt="Tara Arti G, Undergrad Student">
+		</a>
+
+		<!-- QUOTATIONS -->
+		<blockquote cite="http://www.google.com"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+
+		<p>
+			<abbr title="Hyper Text Markup Language"> HTML </abbr>
+			<br>
+			<cite> HTML Crash Course </cite> From YouTube Tutorials
+		</p>
+
+		<br>
+		<br>
+		<br>
+		<img src="Images/HTML_SemanticTag.jpg" alt="HTML Semantic Tags">
+	</body>
+</html>
+
+
+<!-- When you type "html" and press tab, Sublime gives the basic skeleton for HTML -->
